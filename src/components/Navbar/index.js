@@ -5,7 +5,9 @@ function Navbar() {
        <>
         <Nav>
             <NavbarContainer>
-                <Navlogo></Navlogo>
+                <Navlogo> Dolla 
+                    
+                </Navlogo>
             </NavbarContainer>    
         </Nav>
        </>
