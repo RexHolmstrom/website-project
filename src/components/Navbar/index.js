@@ -1,5 +1,5 @@
 import React from 'react'
-import  {Nav, NavbarContainer, NavLogo} from './components/Navbar/NavbarElements'
+import  { Nav, NavbarContainer, NavLogo } from './components/Navbar/NavbarElements'
 
 
 function Navbar() {
@@ -7,9 +7,9 @@ function Navbar() {
        <>
         <Nav>
             <NavbarContainer>
-                <Navlogo> 
+                <NavLogo to='/'> 
                     Dolla 
-                </Navlogo>
+                </NavLogo>
             </NavbarContainer>    
         </Nav>
        </>
