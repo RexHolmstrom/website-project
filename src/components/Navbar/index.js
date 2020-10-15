@@ -34,6 +34,9 @@ function Navbar() {
                         <NavLinks to="signup">Sign up</NavLinks> 
                     </NavItem>
                 </NavMenu>
+                <NavBtn>
+                    <NavBtnLink to='/signin'>Sign in</NavBtnLink>
+                </NavBtn>
             </NavbarContainer>    
         </Nav>
        </>
