@@ -24,6 +24,9 @@ function Navbar() {
                     <NavItem>
                         <NavLinks to="about">About</NavLinks> 
                     </NavItem>
+                    <NavItem>
+                        <NavLinks to="about">About</NavLinks> 
+                    </NavItem>
                 </NavMenu>
             </NavbarContainer>    
         </Nav>
