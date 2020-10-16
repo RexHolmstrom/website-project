@@ -88,7 +88,24 @@ export const NavLinks = styled(LinkS)`
     }
 `;
 
-export const Navbtn = styled.nav`
+export const NavBtn = styled.nav`
     display: flex;
     align-items;
+
+    @media screen and (max-width: 760px) {
+        display: none;
+    }
+`;
+
+export const NavBtnLink = styled(LinkR)`
+    border-radius: 50px;
+    background: #01bf71;
+    white-space: nowrap;
+    padding: 10px 22px;
+    color: #010606;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
 `
