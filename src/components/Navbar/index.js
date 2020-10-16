@@ -7,7 +7,9 @@ import  {
     MobileIcon, 
     NavMenu, 
     NavItem, 
-    NavLinks 
+    NavLinks,
+    NavBtn,
+    NavBtnLink, 
 } from '../Navbar/NavbarElements'
 
 
