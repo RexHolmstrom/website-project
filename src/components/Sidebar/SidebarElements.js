@@ -33,3 +33,14 @@ export const Icon = styled.div`
 export const SidebarWrapper = styled.div`
   color: #fff;
 `;
+
+export const SidebarLink = styled(LinkS)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+`;
