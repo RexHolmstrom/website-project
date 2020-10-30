@@ -10,10 +10,10 @@ import {
   SidebarRoute,
 } from "./SidebarElements";
 
-function Sidebar() {
+const Sidebar = ({ isOpen, toggle }) => {
   return (
-    <SidebarContainer>
-      <Icon>
+    <SidebarContainer isOpen={isOpen} onClick={toggle}>
+      <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
       <SidebarWrapper>
@@ -29,5 +29,5 @@ function Sidebar() {
       </SidebarWrapper>
     </SidebarContainer>
   );
-}
+};
 export default Sidebar;
