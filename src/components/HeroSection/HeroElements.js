@@ -12,6 +12,8 @@ export const HeroContainer = styled.div`
   z-index: 1;
 
   :before {
+    content: "";
+    position: absolute;
   }
 `;
 
