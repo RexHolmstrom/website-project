@@ -73,3 +73,7 @@ export const Heading = styled.h1`
     font-size: 32px;
   }
 `;
+
+export const SubTitle = styled.p`
+  max-width: 440px;
+`;
