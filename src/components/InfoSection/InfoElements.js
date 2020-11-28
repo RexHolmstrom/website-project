@@ -76,4 +76,6 @@ export const Heading = styled.h1`
 
 export const SubTitle = styled.p`
   max-width: 440px;
+  margin-bottom: 35px;
+  font-size: 18px;
 `;
